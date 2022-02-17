@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico">
+        <title>Cadastro no Blog</title>
+</head>
+<body bgcolor="Khaki">
+        <div align="center">
+                <h1>Cadastro de Usuários</h1>
+                <form> 
+                        <fieldset>
+                                <tr>
+                                        <th>Nome Completo:</th>
+                                        <td><input type="text" name="nome"/></td><br>
+
+                                        <th>Data de Nascimento:</th>
+                                        <td><input type="date"><br></td><br>
+
+                                        <th>Sexo:</th>
+                                        <td><input type="radio" name="sexo" value="masculino"> Masculino</td>
+                                        <td><input type="radio" name="sexo" value="feminino"> Feminino</td>
+                                </tr><br>
+
+                                <p>Escolaridade:
+                                        <select name="escolaridade">
+                                                <option value="ef"> Ensino Fundamental </option>
+                                                <option value="em"> Ensino Médio </option>
+                                                <option value="nt"> Nível Técnico </option>
+                                                <option value="ns"> Nível Superior </option>
+                                        </select>
+                                </p>
+
+                                <p>Estado:
+                                        <select name="escolaridade">
+                                                <option value="AC"> Acre </option>
+                                                <option value="AL"> Alagoas </option>
+                                                <option value="AP"> Amapá </option>
+                                                <option value="AM"> Amazonas </option>
+                                                <option value="BA"> Bahia </option>
+                                                <option value="CE"> Ceará </option>
+                                                <option value="ES"> Espírito Santo </option>
+                                                <option value="GO"> Goiás </option>
+                                                <option value="MA"> Goiás </option>
+                                                <option value="MT"> Mato Grosso </option>
+                                                <option value="MS"> Mato Grosso do Sul </option>
+                                                <option value="MG"> Minas Gerais </option>
+                                                <option value="PA"> Pará </option>
+                                                <option value="PB"> Paraíba </option>
+                                                <option value="PR"> Paraná </option>
+                                                <option value="PE"> Pernambuco </option>
+                                                <option value="PI"> Piauí </option>
+                                                <option value="RJ"> Rio de Janeiro </option>
+                                                <option value="RN"> Rio Grande do Norte </option>
+                                                <option value="RS"> Rio Grande do Sul </option>
+                                                <option value="RO"> Rondônia </option>
+                                                <option value="RR"> Roraima </option>
+                                                <option value="SC"> Santa Catarina </option>
+                                                <option value="SP"> São Paulo </option>
+                                                <option value="SE"> Sergipe </option>
+                                                <option value="TO"> Tocantins </option>
+                                        </select>
+                                </p>
+
+                                <tr>
+                                        <th>Descrição da Conta (opcional):</th><br>
+                                        <td><textarea name="descricao" id="descricao" cols="30" rows="4"></textarea></td><br>
+                                
+                                        <th>E-mail:</th>
+                                        <td><input type="email" name="email" id="email"></td><br>
+                                        
+                                        <th>Login:</th>
+                                        <td><input type="login" name="login" id="login"></td><br>
+
+                                        <th>Senha:</th>
+                                        <td><input type="password" name="senha" id="senha"></td><br>
+                                
+                                        <td><input type="checkbox" name="condicoes"></td>
+                                        <th>Termos e Condições</th><br>
+
+                                        <td><input type="checkbox" name="privacidade"></td>
+                                        <th>Política de Privacidade</th><br>
+                                        
+                                        <td><input type="reset" value="Limpar Campos"></td>
+                                        <td><input type="submit" value="Cadastrar-se"></td>
+                                        
+                                </tr><br>
+<!-- Abaixo foi o jeito que deu certo, não sei por que não funcionou do mesmo jeito.-->
+                                </br><button><a href="home.html">Voltar para Home</a></button>
+                        </fieldset>
+                </form>
+        </div>
+</body>
+</html>
